@@ -1,0 +1,11 @@
+<h3>Ag grid tree data - row overlapping </h3>
+<div style="height: 92vh; width:95vw;">
+  <ag-grid-angular
+    #agGrid
+    style="width:100%; height:100%;"
+    id="myGrid"
+    class="ag-theme-material"
+    [(gridOptions)]="agGridOptions"
+    (gridReady)="onGridReady($event)"
+  ></ag-grid-angular>
+</div>
